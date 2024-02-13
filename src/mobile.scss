@@ -61,8 +61,18 @@ body{
     flex-direction: column;
     gap: 20px;
 }
+
 .export-team-cont .right-export img {
     width: auto;
+    height: auto;
+}
+.utilizes-containter .utility-btn img {
+    position: relative;
+    right:-35px;
+}
+.container-box .boxes-cont .boxes{
+    width: auto;
+    height: auto;
 }
 .copyright p{
     font-size: 10px;
