@@ -61,7 +61,10 @@ body{
     flex-direction: column;
     gap: 20px;
 }
-
+.our-mentors-cont .next-mentors{
+    align-items: center;
+    justify-content: center;
+}
 .export-team-cont .right-export img {
     width: auto;
     height: auto;
