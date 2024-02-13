@@ -1,0 +1,135 @@
+@media (max-width: 700px) {
+// *{
+//     border: 2px solid red;
+// }
+body{
+    text-align: center;
+}
+.nav-container .nav-list ul {
+    display: none;
+}
+.utilizes-containter{
+    flex-direction: column;
+}
+.solution-container .upward {
+    flex-direction: column;
+}
+.solution-container .upward .arrow-solution .solution-text {
+
+    flex-direction: column;
+}
+.solution-container .downward .groups{
+    flex-direction: column;
+}
+.export-team-cont .left-export .our-mission{
+    flex-direction: column;
+    gap: 30px;
+}
+.container-box .boxes-cont{
+    grid-template-columns: auto;
+}.our-mentors-cont .mentor-profile{
+    flex-direction: column;
+}
+.brand-cont{
+    flex-direction: column;
+    gap: 30px;
+}
+.export-team-cont .left-export h3{
+    width: auto;
+}
+.business-route .email-container input{
+    width: auto;
+}
+.business-route .email-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.business-route .email-container button{
+    position: relative;
+    left: 0;
+}
+.business-route p{
+    line-height: 40px;
+}
+.business-route h2{
+    line-height: 60px;
+}
+.copyright{
+    flex-direction: column;
+    gap: 20px;
+}
+.export-team-cont .right-export img {
+    width: auto;
+}
+.copyright p{
+    font-size: 10px;
+}
+.nav-container{
+    flex-direction: column;
+    gap: 20px;
+}
+.nav-btn button {
+    padding: 14px 55px;
+}
+.solution-container .upward .arrow-solution h2{
+    font-size: 28px;
+}
+.our-clients .clients-down{
+    flex-direction: column;
+}
+.our-clients .clients-down .right-clients{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.utilizes-containter .right h2{
+    font-size: 38px;
+    text-align: center;
+    line-height: 50px;
+}
+.solution-container .downward .next-arrow{
+    justify-content: center;
+    align-items: center;
+}
+.solution-container .downward .groups img{
+    width: auto;
+    height: auto;
+}
+.export-team-cont{
+    flex-direction: column;
+    text-align: center;
+}
+.utilizes-containter .right p{
+    text-align: center;
+}
+.utilizes-containter .right{
+    align-items: center;
+}
+.our-mentors-cont h2{
+    text-align: center;
+}
+.our-clients h3{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+.our-clients .clients-down .left-clients{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.brand-cont .subcribe-newsletter .email-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.brand-cont .brand-cons {
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+}
