@@ -93,3 +93,21 @@ export const services = [
         Audit: 'Audit & Evaluation',
     }
 ]
+export const navlist =[
+    {
+        id: '#home',
+        home: 'Home',
+    },
+    {
+        id: '#brand',
+        home: 'About us',
+    },
+    {
+        id: '#music',
+        home: 'Portfolio',
+    },
+    {
+        id: '#gallery',
+        home: 'Our services',
+    },
+]

@@ -5,7 +5,7 @@ import SmillingGirl from '../assets/images/smilling-girl.png'
 
 const Utilizes = () => {
     return (
-        <div className='utilizes-containter'>
+        <div id='home' className='utilizes-containter'>
             <div className="right">
                 <h2>Utilize our <br /> solution to <br /> expand
                     your business.

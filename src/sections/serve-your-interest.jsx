@@ -1,7 +1,7 @@
 import { boxes } from "../data/store"
 const ServeYourInterest = () => {
   return (
-    <div className='container-box'>
+    <div id="music" className='container-box'>
         <h1>What We Do To Serve Your Best</h1>
         <p>We provide comprehensive services to support your business by
 leveraging strategy to drive people, process, and information.</p>

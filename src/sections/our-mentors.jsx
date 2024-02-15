@@ -4,7 +4,7 @@ import LeftBlue from '../assets/icons/blue-arrow-left.png'
 
 const Ourmentors = () => {
   return (
-    <div className='our-mentors-cont'>
+    <div id="gallery" className='our-mentors-cont'>
         <h2>Our mentors are <br /> experts in different fields </h2>
         <div className="next-mentors">
                     <img src={RigthBlue} alt="" />

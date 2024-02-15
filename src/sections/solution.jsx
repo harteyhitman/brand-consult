@@ -8,7 +8,7 @@ import Group3 from '../assets/images/group3.png'
 
 const Solution = () => {
     return (
-        <div className='solution-container'>
+        <div id='brand' className='solution-container'>
 
             <div className="upward">
                 <div className="arrow-solution">

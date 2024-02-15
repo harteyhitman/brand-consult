@@ -4,18 +4,29 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    // border: 2px solid red;
+
 }
 
 img {
     max-width: 100%;
 }
-
+.app{
+    display: none;
+}
+.hamburger{
+    display: none;
+}
+.hamburger_menu{
+    display: none;
+}
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 30px 20px;
     background: #12182B;
+    max-width: 100%;
 
     .brand-cons {
         display: flex;
@@ -62,20 +73,28 @@ img {
         }
     }
 
-    .nav-list {
-        ul {
+    .nav-list{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 30px; .list{
             display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-
-            li {
-                font-family: 'Poppins';
-                font-size: 18px;
-                font-weight: bold;
-                text-align: center;
-                list-style: none;
-                color: #ffffff;
+            ul{
+                display: flex;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        font-size: 24px;
+                        font-family: 'Poppins';
+                        color: #ffffff;
+                    }
+                    
+                }
+                a:hover{
+                    color: #69FAB4;
+                    font-size: 26px;
+                }
             }
         }
     }
@@ -84,8 +103,9 @@ img {
 
 .nav-btn {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    padding: 0;
 
     button {
         padding: 14px 25px;
