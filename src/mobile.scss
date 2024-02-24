@@ -1,9 +1,15 @@
 @media (max-width: 700px) {
-*{
-    // border: 2px solid red;
-}
 body{
     text-align: center;
+}
+// *{
+//     border: 2px solid red;
+// }
+.nav-btn{
+    display: none;
+}
+.hamburger_menu{
+    display: flex;
 }
 .hamburger{
     display: flex;
@@ -25,11 +31,32 @@ body{
     flex-direction: column;
 }
 .solution-container .upward .arrow-solution .solution-text {
-
     flex-direction: column;
 }
 .solution-container .downward .groups{
-    flex-direction: column;
+    flex-direction: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 21.33%;
+    gap: 1rem;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    justify-content: start;
+}
+.right-scroll{
+    position: relative;
+    bottom: -230px;
+    z-index: 1;
+    left: 210px;
+    opacity: 0.4;
+    // border: 2px solid red;
+}
+.left-scroll{
+    position: relative;
+    bottom: -230px;
+    z-index: 1;
+    left: -210px;
+    opacity: 0.4;
+    // border: 2px solid red;
 }
 .export-team-cont .left-export .our-mission{
     flex-direction: column;

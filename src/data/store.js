@@ -95,19 +95,19 @@ export const services = [
 ]
 export const navlist =[
     {
-        id: '#home',
+        id: 'home',
         home: 'Home',
     },
     {
-        id: '#brand',
+        id: 'brand',
         home: 'About us',
     },
     {
-        id: '#music',
+        id: 'music',
         home: 'Portfolio',
     },
     {
-        id: '#gallery',
+        id: 'gallery',
         home: 'Our services',
     },
 ]

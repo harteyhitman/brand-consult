@@ -1,7 +1,7 @@
 import HamburgerImg from '../assets/icons/menu.png'
 import React, { useState } from 'react';
 import { navlist } from '../data/store';
-
+import 'animate.css';
 
 const Hamburger = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -25,9 +25,9 @@ const Hamburger = () => {
             </header>
 
             {isModalOpen && (
-                <div className="modal">
+                <div className="modal"  onClick={handleCloseModal}>
                     <div className="modal-content">
-                        <span className="close" onClick={handleCloseModal}>&times;</span>
+                        <span className="close">&times;</span>
                         <div className='navlist_cont ham-list'>
                             {navlist.map((list) => (
                                 <div key={list.id} className="list">
